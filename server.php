@@ -8,7 +8,11 @@ $errors = array();
 $_SESSION['success'] = "";
 
 // connect to database
-$db = mysqli_connect('localhost', 'root', '', 'registration');
+$db = mysqli_connect('ec2-54-235-248-185.compute-1.amazonaws.com', 'zivevhhlkfsdbl', '
+4fe6332d8b8aeab75fdfeede5a77ec64b90dd66f84ff94e3431a25993d2cc2ec', 'd5rb63vlcoued6');
+// $db = mysqli_connect('localhost', 'root', '', 'registration');
+
+
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
